@@ -1,0 +1,88 @@
+@import url(style.css);
+
+
+div#about-text {
+    display: grid;
+    align-content: center;
+    /* justify-items: center; */
+    height:70%;
+}
+
+div#about-text p{
+    font-size: 15.5px;
+}
+
+div.about-row{
+    height:100%;
+}
+
+button.about-btn:hover{
+    transition: background-color 0.2s, color 0.2s;
+}
+
+button.about-btn:hover{
+    background-color: #A27B5C;
+    color: #f3f0ea;
+}
+
+#about-img{
+    position:relative;
+    top:150px;
+    left:130px;
+   
+    z-index:200;
+    /* width:600px; */
+}
+
+#about-img3{
+    position:absolute;
+    top:510px;
+    left:730px;
+   
+    z-index:200;
+    width:250px;
+    rotate: -15deg;
+}
+
+#about-img2{
+    position:relative;
+    top:490px;
+    left:2430px;
+   
+    z-index:200;
+    /* width:600px; */
+}
+
+#about-img4{
+    position:absolute;
+    top:420px;
+    left:710px;
+   
+    z-index:100;
+    width:260px;
+    rotate: -15deg;
+    scale:0.6;
+}
+
+#about-img5{
+    position:absolute;
+    top:420px;
+    left:910px;
+   
+    z-index:100;
+    width:400px;
+    rotate: 45deg;
+    scale:0.6;
+}
+
+#about-img6{
+    position:absolute;
+    top:420px;
+    left:910px;
+   
+    z-index:100;
+    width:400px;
+    rotate: 45deg;
+    scale:0.6;
+}
+

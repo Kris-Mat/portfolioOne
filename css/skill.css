@@ -1,0 +1,89 @@
+@import url(style.css);
+
+
+#skill-img{
+    position:relative;
+    top:160px;
+    left:630px;
+   
+    z-index:500;
+    width:300px;
+    
+}
+#skill-img2{
+    position:relative;
+    top:160px;
+    left:330px;
+   
+    z-index:400;
+    width:230px;   
+}
+
+#skill-img3{
+    position:relative;
+    top:160px;
+    left:130px;
+   
+    z-index:400;
+    width:230px;   
+    
+}
+
+#skill-img4{
+    position:relative;
+    top:160px;
+    left:-100px;
+   
+    z-index:400;
+    width:230px;   
+    
+}
+
+#skill-img5{
+    position:relative;
+    top:160px;
+    left:-390px;
+   
+    z-index:400;
+    width:230px;   
+    
+}
+
+#skill-img6{
+    position:relative;
+    top:-40px;
+    left:670px;
+   
+    z-index:400;
+    width:230px;   
+    
+}
+
+#skill-img7{
+    position:relative;
+    top:-40px;
+    left:430px;
+   
+    z-index:400;
+    width:230px;   
+}
+
+#skill-img8{
+    position:relative;
+    top:10px;
+    left:170px;
+   
+    z-index:400;
+    width:230px;   
+    
+}
+
+#skill-img9{
+    position:relative;
+    top:-100px;
+    left:-30px;
+   
+    z-index:400;
+    width:230px;   
+    
+}

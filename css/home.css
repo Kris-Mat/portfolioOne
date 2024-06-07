@@ -1,0 +1,199 @@
+/* home */
+
+@import url(style.css);
+
+
+h1#name {
+    font-size: 100px;
+    margin: 0;
+    height: 110px;
+}
+
+p#slogan {
+    font-size: 20px;
+}
+
+div#home-div {
+    /* padding-top:200px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    /* position:fixed; */
+    overflow-x: visible;
+    position: relative;
+}
+
+#home-img {
+    position: absolute;
+    left: 1090px;
+    top: 0;
+    z-index: 200;
+    width: 1000px;
+}
+
+
+
+#home-img2 {
+    position: absolute;
+    left: 75px;
+    top: 390px;
+    z-index: 200;
+    width: 300px;
+    rotate: 11deg;
+}
+
+#polar {
+    position: absolute;
+    left: 1915px;
+    top: 400px;
+    z-index: 500;
+    width: 100px;
+    rotate: right;
+}
+
+
+#camera {
+    position: absolute;
+    left: 1155px;
+    top: 400px;
+    z-index: 500;
+    width: 100px;
+}
+
+#film {
+    position: absolute;
+    left: 1540px;
+    top: 80px;
+    z-index: 500;
+    width: 100px;
+}
+
+#com {
+    position: absolute;
+    left: 1270px;
+    top: 179px;
+    z-index: 500;
+    width: 100px;
+}
+
+#skate {
+    position: absolute;
+    left: 1795px;
+    top: 179px;
+    z-index: 500;
+    width: 100px;
+    rotate: right;
+}
+
+/* clouds */
+.clouds-small {
+    position: absolute;
+    z-index: 200;
+    width: 30px;
+}
+
+.clouds-medium{
+    position: absolute;
+    z-index: 200;
+    width:90px;
+}
+
+.clouds-big{
+    position: absolute;
+    z-index: 200;
+    width:160px;
+}
+
+/* small clouds */
+
+#cloud-small1 {
+    left: 1495px;
+    top: 179px;
+}
+
+#cloud-small2 {
+    left: 1995px;
+    top: 279px;
+}
+
+#cloud-small3 {
+    left: 1795px;
+    top: 379px;
+}
+
+#cloud-small4 {
+    left: 1595px;
+    top: 40px;
+}
+
+#cloud-small5 {
+    left: 1195px;
+    top: 279px;
+}
+
+/* medium clouds */
+
+#cloud-medium1 {
+    left: 1395px;
+    top: 279px;
+}
+
+#cloud-medium2 {
+    left: 1795px;
+    top: 70px;
+}
+
+#cloud-medium3 {
+    left: 2155px;
+    top: 279px;
+}
+
+#cloud-medium4 {
+    left: 995px;
+    top: 479px;
+}
+
+/* big clouds */
+
+#cloud-big1 {
+    left: 995px;
+    top: 179px;
+}
+
+#cloud-big2 {
+    left: 2095px;
+    top: 479px;
+}
+
+#cloud-big3 {
+    left: 2195px;
+    top: 39px;
+}
+
+.txt {
+    position: absolute;
+    z-index: 200;
+    left:1470px;
+    top:190px;
+    width:250px;
+    font-size: medium;
+    text-align: center;
+}
+
+.txt-bubble{
+    position: absolute;
+    z-index: 200;
+    left:1460px;
+    top:150px;
+    width:350px;   
+}
+
+#me{
+    position: absolute;
+    scale:0.62;
+    left: 1279px;
+    top: 170px;
+    z-index:300;
+}

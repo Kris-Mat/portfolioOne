@@ -1,0 +1,66 @@
+@import url(style.css);
+
+div#contact-row{
+    height:100%;
+}
+
+#contact-form{
+    display: grid;
+    align-content:center;
+    justify-items: center;
+    padding-top: 100px;
+}
+
+#contact-card{
+    background-color: var(--blue);
+    border-color: var(--jade);
+    color: var(--text);
+    width:50%;
+}
+
+.card-header{
+    background-color: var(--jade);
+    color: white;
+}
+
+.contact-el{
+    margin-bottom:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons{
+
+   border-radius: 3px;
+   transition: all ease-in-out 1s;
+   display: flex;
+    justify-content: center;
+    margin-left:50px;
+}
+
+.icons:hover{
+    /* background-color:var(--jade); */
+    padding-right:50px;
+    transform:scale(1.1);
+    color:black;
+}
+
+a.a-icons:hover{
+    color:black;
+}
+
+.contact-el i {
+    font-size: 24px; /* You can adjust the size to your preference, e.g., 24px, 32px, etc. */
+}
+
+#wow{
+    padding-right:0px;
+}
+
+#me2{
+    position:absolute;
+    top: 400px;
+    left: 1699px;
+    scale:0.8;
+}
