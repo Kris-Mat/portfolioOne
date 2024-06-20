@@ -49,6 +49,24 @@ gsap.to("#proj-img2", {
 
 })
 
+gsap.to("#proj-raptis", {
+    scrollTrigger: {
+        scrub: 1
+    },
+    scale: 2,
+    y: -10,
+
+})
+
+gsap.to("#proj-imagin", {
+    scrollTrigger: {
+        scrub: 1
+    },
+    scale: 2,
+    y: 10,
+
+})
+
 gsap.to("#skate", {
     scrollTrigger: {
         scrub: 1
@@ -296,7 +314,7 @@ $("#film").hover(function () {
 // chaning text effect for social media links
 
 var git_txt = TweenLite.to('#git-txt', 0.75, { text: "Kris-Mat", color: 'black', ease: Linear.easeNone, paused: true, reversed: true });
-var twit_txt = TweenLite.to('#twit-txt', 0.75, { text: "KristaMCreates", color: 'black', ease: Linear.easeNone, paused: true, reversed: true });
+var twit_txt = TweenLite.to('#twit-txt', 0.75, { text: "krista-matsila", color: 'black', ease: Linear.easeNone, paused: true, reversed: true });
 var mail_txt = TweenLite.to('#mail-txt', 0.75, { text: "matsila.krista@gmail.com", color: 'black', ease: Linear.easeNone, paused: true, reversed: true });
 var insta_txt = TweenLite.to('#insta-txt', 0.75, { text: "kristam.creates", color: 'black', ease: Linear.easeNone, paused: true, reversed: true });
 

@@ -1,6 +1,6 @@
 // let womanOriginal = jQuery('#home-img2').getBoundingClientRect().left;
 
-// hirixota scroll functionality:
+// horizontalscroll functionality:
 
 jQuery(document).ready(function () {
   console.log("made it");
@@ -123,8 +123,8 @@ jQuery(document).ready(function () {
   jQuery(window).on("scroll", function () {
     var element = jQuery(".content");
     var leftValue = parseFloat(element.css("left"));
-    var rangeStartHome = 0; // define your range start value
-    var rangeEndHome= -1400; // define your range end value
+    var rangeStartHome = 0; // defining  range start value
+    var rangeEndHome= -1400; // defining your range end value
     var rangeStartAbout = -1401;
     var rangeEndAbout = -3000;
     var rangeStartProj = -3001;

@@ -201,8 +201,8 @@
                         <div class="col-7 pl-1" id="about-text">
                             <h1>Hi, I'm Krista</h1>
                             <p> I am a final year Bachelor of
-                                Information Science
-                                student. When I'm not competing with due dates, I enjoy spending time reading and writing thought pieces on music and films, sometimes
+                                Information Science in
+                                student Multimedia. When I'm not competing with due dates, I enjoy spending time reading and writing thought pieces on music and films, sometimes
                                 building websites, and exploring what's new in UI/UX spaces. I have a deep passion for
                                 creation. Right now I'm drawn to exploring a space in UI/UX design, touching into certain aspects of backend as well, after my degree.
                             </p> 
@@ -219,30 +219,54 @@
                         </div>
                     </div>
                 </section>
-                <section id="projects">
-                    <div id="proj-img" >
-                        <img class="images"
-                        src="assets/1x/Asset 33.png" id = "theme1-placeholder-img" />
-                        <img class="images"
-                        src="assets/1x/Asset 26.png" id = "theme1-holder-img"/>
-                        <div id = "display-theme1-heading">
-                            <h2>Trailer</h2>
+                <section  id="projects">
+                    <div class = "proj-holder">
+                        <div class="proj-img-holder" id="proj-img" >
+                            <img class="images"
+                            src="assets/1x/Asset 33.png" id = "theme1-placeholder-img" />
+                            <img class="images"
+                            src="assets/1x/Asset 26.png" id = "theme1-holder-img"/>
+                            <div class="heading" id = "display-theme1-heading">
+                                <h2 class ="shadow">Trailer</h2>
+                            </div>
                         </div>
-                    </div>
-                    <div id="proj-img2">
-                        <img class="images"
-                        src="assets/1x/Asset 34.png" id = "theme2-placeholder-img"/>
-                        <img class="images" 
-                        src="assets/1x/Asset 26.png" id = "theme2-holder-img"/>
-                        <div id = "display-theme2-heading">
-                            <h2>Comic</h2>
+
+                        <div class="proj-img-holder" id="proj-img2">
+                            <img class="images"
+                            src="assets/1x/Asset 34.png" id = "theme2-placeholder-img"/>
+                            <img class="images" 
+                            src="assets/1x/Asset 26.png" id = "theme2-holder-img"/>
+                            <div class="heading" id = "display-theme2-heading">
+                                <h2 class = "shadow">Comic</h2>
+                            </div>
+                        </div>
+
+                        <div class="proj-img-holder" id="proj-raptis">
+                            <img class="images"
+                            src="assets/1x/rap.png" id = "raptis-placeholder-img"/>
+                            <img class="images" 
+                            src="assets/1x/Asset 26.png" id = "raptis-holder-img"/>
+                            <div class="heading" id = "display-raptis-heading">
+                                <h2 class = "size shadow">Raptis Rare Books</h2>
+                            </div>
+                        </div>
+
+                        <div class="proj-img-holder" id="proj-imagin">
+                            <img class="images"
+                            src="assets/1x/imaginlinkCo.png" id = "imagin-placeholder-img"/>
+                            <img class="images" 
+                            src="assets/1x/Asset 26.png" id = "imagin-holder-img"/>
+                            <div class="heading" id = "display-imagin-heading">
+                                <h2 class="size shadow">Imaginlink</h2>
+                            </div>
                         </div>
                     </div>
 
                     <div class="section-content" id="proj-div">
                         <h1>Projects</h1>
-                        <p>Wanna see what I've worked on this year?</p>
-                        <p>Click on a frame bellow to access my project portal and allow yourself to be transported...</p>
+                        <p>This website is one of my portfolio pieces. I built it myself to display my work. I used HTML, CSS, jQuery and Animation JS for</p>
+                        <p>the parallax effect. Want to see some of my other work? Click on a frame bellow, access my project portals</p>
+                        <p>and allow yourself to be transported...</p>
                         <br>
                         <div class="theme-holder" id="theme1-holder">
                             <div class="proj-btns">
@@ -254,7 +278,7 @@
                             <div class = "hide-btns">
                             </div>
                 
-                            <div id="theme1-proj">
+                            <div class = "proj" id="theme1-proj">
                                 <!-- <iframe
                                     width="1920" height="1080"
                                     src="https://xd.adobe.com/embed/def160c5-31b9-4c80-aa8d-f54a3b0aef62-8ba2/?fullscreen"
@@ -274,6 +298,7 @@
                                             experience and let the user try to guess
                                             what the story was behind Carl
                                             and what he was capable of, as they navigate the trailer.</p>
+                                            <p>Click glowing/yellow parts to advance in the trailer</p>
                                     </div>
                                     <div class="col-6 pb-5 hello">
                                         <h3>Things I wanted to improve</h3>
@@ -287,21 +312,22 @@
                                             <li>Clearer graphics without
                                                 pixelation</li>
                                         </ul>
+                                        <small><i><b>Technology used:</b> Adobe XD, Adobe Illustrator</i></small>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="theme-holder" id="theme2-holder">
                             <div class="proj-btns">
-                                <div class="control-btns2" id="back2"><i class="help lni lni-arrow-left"></i></div>
-                                <div class="control-btns2" id="background2">Background-info</div>
-                                <div class="control-btns2" id="pro2">Project</div>
+                                <div class="control-btns" id="back2"><i class="help lni lni-arrow-left"></i></div>
+                                <div class="control-btns" id="background2">Background-info</div>
+                                <div class="control-btns" id="pro2">Project</div>
                                 <!-- <div class="control-btns2" id="fullscreen2">Full Screen</div> -->
                             </div>
                             <div class = "hide-btns">
                             </div>
                    
-                            <div id="theme2-proj">
+                            <div class = "proj" id="theme2-proj">
                                 <div id="animation_container">
                                     <!-- <br> -->
                                     <canvas id="canvas" style="position: absolute; display: block; background-color:none;"></canvas>
@@ -327,6 +353,7 @@
                                             life to Carl and his world, and made
                                             his world exciting to understand and
                                             delve into as a user.</p>
+                                            <p>Click the left and right arrow keys to page through the comic. Click play buttons on comic to play scenes</p>
                                     </div>
                                     <div class="col-6 pb-5 hello">
                                         <h4>Things I wanted to improve</h4>
@@ -340,6 +367,89 @@
                                             <li>Clearer graphics without
                                                 pixelation</li>
                                         </ul>
+                                        <small><i><b>Technology used:</b> Adobe Animate, Adobe Illustrator, JavaScript</i></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-holder" id="raptis-holder">
+                            <div class="proj-btns">
+                                <div class="control-btns" id="back3"><i class="lni lni-arrow-left"></i></div>
+                                <div class="control-btns" id="background3">Background-info</div>
+                                <div class="control-btns" id="pro3">Project</div>
+                                <!-- <div class="control-btns" id="fullscreen">Full Screen</div> -->
+                            </div>
+                            <div class = "hide-btns">
+                            </div>
+                
+                            <div class = "proj web-display" id="raptis-proj">                              
+                                <p><a href="https://raptis-rare-books.vercel.app/" target="_blank">Click this link to see the full website</a></p>
+                                <img class="images"
+                                src="assets/1x/raptis.png" width="800" />
+                            </div>
+                            <div id="raptis-info">
+                                <!-- <br> -->
+                                <h1 class ="proj-title">Raptis Rare Books Website</h1>
+                                <br><br>
+                                <div class="row proj-info-content">
+                                    <div class="col-6 pe-5 hello">
+                                        <h3>What was on my mind?</h3>
+                                        <p>This was the first successful website I designed. The website is designed for an antique book store called Raptis Rare Books. I wanted the theme of the website to be dark and moody, as if the books were from a secrete vault, and to make the business seem older and mature. The colour scheme 
+                                            was meant to reflect this, along with the typography. I wanted the website to be minimal and sleek.
+                                        </p>
+                                    </div>
+                                    <div class="col-6 pb-5 hello" id="raptis-info-content">
+                                        <h3>Things I wanted to improve</h3>
+                                        <ul>
+                                            <li>Better aesthetics</li>
+                                            <li>smaller, more compact book information cards</li>
+                                            <li>More interactive and less static</li>
+                                            <li>Better signs of life and interactivity</li>
+                                            <li>better application of UI/UX design principles to overall site</li>
+                                        </ul>
+                                        <small><i><b>Technology used:</b> HTML, responsive CSS</i></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="theme-holder" id="imagin-holder">
+                            <div class="proj-btns">
+                                <div class="control-btns" id="back4"><i class="lni lni-arrow-left"></i></div>
+                                <div class="control-btns" id="background4">Background-info</div>
+                                <div class="control-btns" id="pro4">Project</div>
+                                <!-- <div class="control-btns" id="fullscreen">Full Screen</div> -->
+                            </div>
+                            <div class = "hide-btns">
+                            </div>
+                
+                            <div class = "proj web-display" id="imagin-proj">
+                                <p><a href="http://imy220project.lovestoblog.com/" target="_blank">Click this link to see the full website</a></p>
+                                <p>Register your own account or use this username: <b>mat.kris@gmail.com</b> and password: <b>Good</b></p>
+                                <img class="images"
+                                src="assets/1x/imaginlink.png" width="800" />
+                            </div>
+                            <div id="imagin-info">
+                                <!-- <br> -->
+                                <h1 class ="proj-title">Imaginlink Website</h1>
+                                <br><br>
+                                <div class="row proj-info-content" id="imagin-info-content">
+                                    <div class="col-7 pe-5 hello">
+                                        <h3>What was on my mind?</h3>
+                                        <p>This is meant to be an article sharing website where users can sign up, write articles, comment on other user's articles, make friends with and communicate with other users.
+                                            I wanted the website to specifically be an article sharing website for creatives, where users can share creative tips, ideas, concepts, or simply what is on their mind.
+                                            All relating to topics in the space of UI/UX design, photography, cinematography, graphic design, and any other creative discipline that user's have an interest in. I tried to 
+                                            communicate this intention with the aesthetic of the website being colourful and warm, the graphics being playful, and the typography seeming relaxes and conversational.
+                                        </p>
+                                    </div>
+                                    <div class="col-5 pb-5">
+                                        <h3>Things I wanted to improve</h3>
+                                        <ul>
+                                            <li>responsive resizing</li>
+                                            <li>Completing friend functionality</li>
+                                            <li>Improving card displays with article information</li>
+                                            <li>Following closer with Ui/UX design principles</li>
+                                        </ul>
+                                        <small><i><b>Technology used:</b> PHP, HTML, Bootstrap, CSS, jQuery, mySQL</i></small>
                                     </div>
                                 </div>
                             </div>
@@ -419,8 +529,8 @@
                                                     href="https://www.instagram.com/kristam.creates/" id="insta-txt"
                                                     target="_blank"></a></div>
                                             <div class="icons" id="twit"><i
-                                                    class="lni lni-twitter"></i><a class="a-icons"
-                                                    href="https://twitter.com/KristaMCreates" id="twit-txt"
+                                                    class="lni lni-linkedin"></i><a class="a-icons"
+                                                    href="https://www.linkedin.com/in/krista-matsila/" id="twit-txt"
                                                     target="_blank"></a></div>
                                             <div class="icons" id="mail"><i
                                                     class="lni lni-envelope"></i><a class="a-icons"
